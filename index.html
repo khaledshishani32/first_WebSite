@@ -38,8 +38,10 @@
               <section class="hero-image">
                 <script type="text/javascript">
 
-                  alert("Calculate your body mass index(BMI) : is a measure of body fat based on height and weight that applies to adult men and women.");
-                var height , weight  ;
+                 var z= confirm("Calculate your body mass index(BMI) : is a measure of body fat based on height and weight that applies to adult men and women.");
+                  
+                  if(z ==true){ 
+                     var height , weight  ;
 
                       height =prompt("Enter your height in cm like 1.65 ");
                       weight =prompt("Enter your weight in kg  like 65");
@@ -56,6 +58,9 @@
                           }else if(bmiCal >30 ){
                             document.write('<h1>' + 'Obesity ' + '</h1>')   
                              }
+                            }else{
+                              alert("Don't be shy tray again! ");
+                            }
 
                </script>
                <img src="images/image_1.jpg" width="100%" alt="Xoxo company image"/>
