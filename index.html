@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Xoxo</title>
+</head>
+<body>
+    <div id="top"> 
+        <header>
+            <div class="flex">
+               <div class="logo">
+                   <a href="#">Xoxo<span>.CO</span></a>
+               </div>
+
+               <nav>
+                   <button id="nav-toggle" class="hamburger-menu">
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                   </button>
+
+                   <ul class="nav-menu-container">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                   </ul>
+               </nav>
+            </div>
+        </header>
+         
+          <main>
+              <section class="hero-image">
+                <script type="text/javascript">
+
+                  alert("Calculate your body mass index(BMI) : is a measure of body fat based on height and weight that applies to adult men and women.");
+                var height , weight  ;
+
+                      height =prompt("Enter your height in cm like 1.65 ");
+                      weight =prompt("Enter your weight in kg  like 65");
+
+                      var bmiCal =Math.round( weight / (height * height));
+                        
+                      
+                      if(bmiCal < 18.5){
+                      alert('<h1>'+ 'Underweight' + '</h1>')
+                      }else if(bmiCal > 18.5 && bmiCal < 24.9 ){
+                      document.write('<h1>'+ 'Normal weight' +'</h1>')
+                       }else if(bmiCal > 25 && bmiCal > 29 ){
+                         document.write('<h1>' + 'Overweight' + '</h1>')
+                          }else if(bmiCal >30 ){
+                            document.write('<h1>' + 'Obesity ' + '</h1>')   
+                             }
+
+               </script>
+               <img src="images/image_1.jpg" width="100%" alt="Xoxo company image"/>
+               <div class="hero-marketing-bar">
+                   <h3>make yours event best ways</h3>
+                   <h1>best proffianal work</h1>
+               </div>
+              </section>
+
+              <section class="marketing-boxes"> 
+              <div class="flex">
+                  <div class="box">
+                      <h2>Services</h2>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <button>More Info</button>
+                   </div>
+
+                   <div class="box">
+                      <h2>Projects</h2>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <button>More Info</button>
+                   </div>
+
+                   <div class="box">
+                      <h2>Clients</h2>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <button>More Info</button>
+                   </div>
+
+                    
+                </div>
+              </section>
+
+              <section class="about-us">
+                 <h1>About Us</h1>
+                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                   <br/><br/>
+                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                  <button>Read More</button>
+                </section>
+
+
+                <section class="contact-us"> 
+                  <h1>Contact Us</h1>
+                  <div class="flex">
+                     <div class="map">
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.3619342418433!2d35.878014084991335!3d32.00530828121191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c9f83e027c159%3A0x539899b0a8ceb859!2sUniversity%20of%20Jordan%20-%20South%20Gate!5e0!3m2!1sar!2sjo!4v1616167647376!5m2!1sar!2sjo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                   </div>
+                   <div class="contact-form">
+                      <address>
+                        Tawfiq Qattan Street<br/>
+                        khaled.shishani32@gmail.com<br/>
+                        Tel : 079*******<br/>
+
+                      </address>
+
+                    <form>
+                        <input type="text" name="name" id="name" placeholder="Name"/>
+                        <input type="text" name="email" id="email" placeholder="Email"/>
+                        <input type="text" name="subject" id="subject" placeholder="Subject"/>
+                        <textarea  id="message" placeholder="Type your message here..."></textarea>
+                        <button>Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                </section>
+          </main>
+            <footer>
+                <div class="flex">
+                 <small>&copy; 2021 Xoxo Company.</small>
+                 <ul>
+                     <li>
+                         <a href="#">
+                             <img src="https://logodix.com/logo/1058190.jpg" width="80px" alt="Facebook">
+                         </a>
+                     </li>
+
+                     <li>
+                        <a href="#">
+                            <img src="https://icon-library.com/images/small-twitter-icon/small-twitter-icon-9.jpg" width="80px" alt="Twitter">
+                        </a>
+                     </li>
+
+            
+                 </ul>
+              </div>
+            </footer>
+
+      </div>
+      
+</body>
+</html>
