@@ -83,39 +83,6 @@ console.log(result);
 document.write(result);
 
 
-// for(var i=0; i<5; i++){
-//     // i=0
-//     // i=1
-//     // i=2
-//     // i=3
-//     // i=4
-//     // i=5
-//     console.log('hello' + i);
-
-// }
-// var i=0;
-// while (i<5) {
-//     console.log('hello from while'+i);
-//     i++;
-//     // i=i+1
-// }
-// console.log('after while loop',i);
-
-
-
-
-
-
-// for(var i=0;i<5;i++){
-
-//     console.log('inside first loop',i);
-
-//     for(var j=0;j<10;j++){
-//         console.log('second loop',j);
-
-//     }
-// }
- 
 
 
 
@@ -128,26 +95,5 @@ document.write(result);
 
 
 
-  /*  var z= confirm("Calculate your body mass index(BMI) : is a measure of body fat based on height and weight that applies to adult men and women.");
-     
-     if(z ==true){ 
-        var height , weight  ;
 
-         height =prompt("Enter your height in cm like 1.65 ");
-         weight =prompt("Enter your weight in kg  like 65");
 
-         var bmiCal =Math.round( weight / (height * height));
-           
-         
-         if(bmiCal < 18.5){
-         alert('<h1>'+ 'Underweight' + '</h1>')
-         }else if(bmiCal > 18.5 && bmiCal < 24.9 ){
-         document.write('<h1>'+ 'Normal weight' +'</h1>')
-          }else if(bmiCal > 25 && bmiCal > 29 ){
-            document.write('<h1>' + 'Overweight' + '</h1>')
-             }else if(bmiCal >30 ){
-               document.write('<h1>' + 'Obesity ' + '</h1>')   
-                }
-               }else{
-                 alert("Don't be shy tray again! ");
-               }*/
