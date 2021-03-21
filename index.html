@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    
     <title>Xoxo</title>
 </head>
 <body>
@@ -36,34 +37,8 @@
          
           <main>
               <section class="hero-image">
-                <script type="text/javascript">
-
-                 var z= confirm("Calculate your body mass index(BMI) : is a measure of body fat based on height and weight that applies to adult men and women.");
-                  
-                  if(z ==true){ 
-                     var height , weight  ;
-
-                      height =prompt("Enter your height in cm like 1.65 ");
-                      weight =prompt("Enter your weight in kg  like 65");
-
-                      var bmiCal =Math.round( weight / (height * height));
-                        
-                      
-                      if(bmiCal < 18.5){
-                      alert('<h1>'+ 'Underweight' + '</h1>')
-                      }else if(bmiCal > 18.5 && bmiCal < 24.9 ){
-                      document.write('<h1>'+ 'Normal weight' +'</h1>')
-                       }else if(bmiCal > 25 && bmiCal > 29 ){
-                         document.write('<h1>' + 'Overweight' + '</h1>')
-                          }else if(bmiCal >30 ){
-                            document.write('<h1>' + 'Obesity ' + '</h1>')   
-                             }
-                            }else{
-                              alert("Don't be shy tray again! ");
-                            }
-
-               </script>
                <img src="images/image_1.jpg" width="100%" alt="Xoxo company image"/>
+               <script src="app.js"></script>
                <div class="hero-marketing-bar">
                    <h3>make yours event best ways</h3>
                    <h1>best proffianal work</h1>
