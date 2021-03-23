@@ -19,7 +19,7 @@ if (checkAsk == true) {
 
     }
 
-
+       getAge(age);
 } else {
     alert("Believe me, you will change your mind about anime, try again !");
 }
@@ -42,6 +42,8 @@ var getFavAnime = function () {
         }
 
         favAnime = animeHistory;
+    }else{
+       favAnime=prompt("Please choose from {Action ,History}") ;
     }
 
 
